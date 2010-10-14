@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe PagesController do
 
+  #what will happen to this comment?
   describe "GET 'home'" do
     it "should be successful" do
       get 'home'
