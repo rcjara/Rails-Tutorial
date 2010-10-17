@@ -17,9 +17,6 @@ describe UsersController do
       get 'new'
       response.should have_selector("title", :content => "Sign Up")
     end
-
-    it "should have a user" do
-      @user.nil?.should == false
-    end
   end
+
 end
